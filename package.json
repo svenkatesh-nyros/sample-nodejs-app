@@ -1,0 +1,29 @@
+{
+  "name": "NodeProject",
+  "version": "0.0.0",
+  "description": "Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Chandu",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "async": "^2.4.1",
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-flash": "0.0.2",
+    "express-myconnection": "^1.0.4",
+    "express-validator": "^3.2.0",
+    "http": "0.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0",
+    "node-async": "0.0.1",
+    "routes": "~2.1.0"
+  }
+}
